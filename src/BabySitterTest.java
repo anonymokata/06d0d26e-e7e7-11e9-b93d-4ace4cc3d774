@@ -55,4 +55,13 @@ public class BabySitterTest {
         family = new FamilyB();
         assertEquals(60, babySitter.total(family));
     }
+
+    @Test
+    public void whenBabysitterWorksTenPmToTwelveAmForFamilyBSixteenDollars() {
+        babySitter = new BabySitter(PaidHours.tenPm(), PaidHours.twelveAm());
+        family = new FamilyB();
+        assertEquals(16, babySitter.total(family));
+    }
+
+
 }
