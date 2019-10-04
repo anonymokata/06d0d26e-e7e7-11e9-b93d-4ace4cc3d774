@@ -12,4 +12,8 @@ public class PaidHours {
         return 7;
     }
 
+    public static int fourAm() {
+        return 12;
+    }
+
 }
