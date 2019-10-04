@@ -9,7 +9,7 @@ public class PaidHours {
     }
 
     public static int elevenPm() {
-        return 6;
+        return 7;
     }
 
 }
